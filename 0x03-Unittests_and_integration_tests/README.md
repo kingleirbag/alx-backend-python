@@ -59,8 +59,8 @@ Required Files
 
 <details>
 <summary>Click to show/hide file contents</summary>
-```shell
 
+```
 #!/usr/bin/env python3
 """Generic utilities for github org client.
 """
@@ -136,6 +136,7 @@ def memoize(fn: Callable) -> Callable:
         return getattr(self, attr_name)
 
     return property(memoized)
+
 ```
 
 </details>
@@ -143,7 +144,8 @@ def memoize(fn: Callable) -> Callable:
 
 <details>
 <summary>Click to show/hide file contents</summary>
-```shell
+
+```
 #!/usr/bin/env python3
 """A github org client
 """
@@ -202,14 +204,16 @@ class GithubOrgClient:
         except KeyError:
             return False
         return has_license
+
 ```
+
 </details>
 
 ### `fixtures.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/fixtures.py "download"))
 
 <details>
 <summary>Click to show/hide file contents</summary>
-```shell
+```
 #!/usr/bin/env python3
 
 TEST_PAYLOAD = [
@@ -1160,5 +1164,7 @@ TEST_PAYLOAD = [
     ['dagger', 'kratu', 'traceur-compiler', 'firmata.py'],
   )
 ]
+
 ```
+
 </details>
