@@ -140,6 +140,7 @@ def memoize(fn: Callable) -> Callable:
 ```
 
 </details>
+
 ### `client.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py "download"))
 
 <details>
@@ -213,6 +214,7 @@ class GithubOrgClient:
 
 <details>
 <summary>Click to show/hide file contents</summary>
+
 ```
 #!/usr/bin/env python3
 
