@@ -60,6 +60,7 @@ Required Files
 <details>
 <summary>Click to show/hide file contents</summary>
 ```shell
+
 #!/usr/bin/env python3
 """Generic utilities for github org client.
 """
@@ -136,6 +137,7 @@ def memoize(fn: Callable) -> Callable:
 
     return property(memoized)
 ```
+
 </details>
 ### `client.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py "download"))
 
