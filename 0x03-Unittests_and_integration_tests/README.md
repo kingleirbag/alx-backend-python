@@ -1,7 +1,7 @@
 # 0x03. Unittests and Integration Tests
 | `UnitTests` | `Back-end` | `Integration tests` |
 
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/1/f088970b450e82c881ea.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220718%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220718T231828Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=76183ce9175e2e6bbf3665a123b4fda4ec8cd1629f051056a04ef04235ea584b)
+![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/1/f088970b450e82c881ea.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240404%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240404T194458Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0f864e2c219bc7f234fead9e483eb10ec440a3e6bb6b65b3b2a6cdfdf5792233)
 
 Unit testing is the process of testing that a particular function returns expected results for different set of inputs. A unit test is supposed to test standard inputs and corner cases. A unit test should only test the logic defined inside the tested function. Most calls to additional functions should be mocked, especially if they make network or database calls.
 
