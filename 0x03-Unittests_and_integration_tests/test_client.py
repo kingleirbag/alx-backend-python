@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""A module for testing the client module.
+"""A module for testing the client module on the client files.
 """
 import unittest
 from typing import Dict
@@ -30,8 +30,8 @@ class TestGithubOrgClient(unittest.TestCase):
     def test_org(self, org: str, resp: Dict, mocked_fxn: MagicMock) -> None:
         """Tests the `org` method."""
         mocked_fxn.return_value = MagicMock(return_value=resp)
-        gh_org_client = GithubOrgClient(org)
-        self.assertEqual(gh_org_client.org(), resp)
+        github_org_client = GithubOrgClient(org)
+        self.assertEqual(github_org_client.org(), resp)
         mocked_fxn.assert_called_once_with(
             "https://api.github.com/orgs/{}".format(org)
         )
@@ -112,8 +112,8 @@ class TestGithubOrgClient(unittest.TestCase):
     ])
     def test_has_license(self, repo: Dict, key: str, expected: bool) -> None:
         """Tests the `has_license` method."""
-        gh_org_client = GithubOrgClient("google")
-        client_has_licence = gh_org_client.has_license(repo, key)
+        github_org_client = GithubOrgClient("google")
+        client_has_licence = github_org_client.has_license(repo, key)
         self.assertEqual(client_has_licence, expected)
 
 
