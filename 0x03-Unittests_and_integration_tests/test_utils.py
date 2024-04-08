@@ -22,7 +22,7 @@ from utils import (
 
 
 class TestAccessNestedMap(unittest.TestCase):
-    '''Test case for `utils.access_nested_map` function.
+    '''Test case for `access_nested_map` function.
     '''
 
     @parameterized.expand([
@@ -50,14 +50,14 @@ class TestAccessNestedMap(unittest.TestCase):
             path: Sequence,
             exception: Exception,
             ) -> None:
-        '''Tests `access_nested_map`'s exception raising.
+        '''Tests `access_nested_map`'s raising exception.
         '''
         with self.assertRaises(exception):
             access_nested_map(nested_map, path)
 
 
 class TestGetJson(unittest.TestCase):
-    '''Tests the `utils.get_json` function.
+    '''Tests the `get_json` function.
     '''
 
     @parameterized.expand([
